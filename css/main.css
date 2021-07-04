@@ -1,0 +1,31 @@
+body{ padding: 30px 10px;}
+.main{ 
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+.header h1, .content h2{
+    color: #333333;
+}
+.header p{ color: #494949;}
+
+.content h2{
+    font-size: 19px;
+}
+.content ul{
+    margin: 0 23rem;
+    color: #494949;
+}
+.content h5 a{
+    color: #74638F;
+    text-decoration: underline;
+}
+
+@media(max-width: 992px){
+    .header .head-image img{
+        width: 82vw;
+    }
+    .content ul{
+    margin: 13px;
+    }
+    .content h5{padding: 0 15px;}
+}
